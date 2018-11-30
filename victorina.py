@@ -20,7 +20,7 @@ que_one()
         else:
             messagebox.showerror ("Error!", "попробуй ещё раз!")
 def que_two():
-    question_2 = Label( root, text="длинная залёная пахнет калбасой")
+    question_2 = Label( root, text="длинная зелёная пахнет калбасой")
     answer_2 = Entry()
     btn_2 = Button (root, text="ответить" )
     question_2.grid(row=0)
