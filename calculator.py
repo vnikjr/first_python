@@ -13,6 +13,6 @@ elif oper == "/":
 else:
      answer = "ошибка "
 if answer == "ошибка ":
-    print (answer * 2) 
+    print (answer) 
 else:
     print ("ответ ", answer)
