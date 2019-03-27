@@ -3,11 +3,11 @@
 
 
 def main():
-    for a in xrange(1, 11):
+    for a in range(1, 11):
         s = ""
-        for b in xrange(1, 11):
+        for b in range(1, 11):
             s = s + ("% 4d" % (a * b))
-        print s
+        print(s)
 
 
 if __name__ == "__main__":

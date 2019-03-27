@@ -1,4 +1,8 @@
-x = [1, 1]
+f = [1, 1]
+d = []
 for i in range(0, 31):
-    x.append(x[-1] + x[-2])
-print (x)
+    f.append(f[-1] + f[-2])
+    d.append(f[-1] / f[-2])
+print(d)
+print("=" * 80)
+print(f)
